@@ -1,0 +1,25 @@
+{
+    "instance_name": "Rifki-12",
+    "routes": [
+        [1, 14, 28, 3, 48, 18, 8, 31],
+        [11, 7, 41, 2, 15],
+        [12, 5, 44, 40, 4, 35, 42],
+        [22, 43, 17, 6, 37, 23, 27, 21, 26],
+        [29, 49, 25, 13, 46, 30],
+        [38, 24, 20, 10],
+        [45, 9, 16, 50, 32],
+        [47, 34, 36, 19, 39, 33]
+    ],
+    "cost": 14302.0,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "kayros 0.4.0.dev0 TD-ACO+ILS (seed=42, time_limit=300.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T03:04:22",
+        "route_durations": [2062.0, 1785.0, 2085.0, 2489.0, 1950.0, 1004.0, 1369.0, 1558.0],
+        "route_departure_times": [799.0, 1341.0, 3178.0, 922.0, 947.0, 0.0, 237.0, 0.0],
+        "validated_cost": 14302.0,
+        "validated_num_routes": 8
+    },
+    "objective_function": "Duration"
+}

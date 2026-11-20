@@ -1,0 +1,22 @@
+{
+    "instance_name": "Rifki-5",
+    "routes": [
+        [2, 11, 22],
+        [5, 27, 23, 29, 6],
+        [8, 4, 9, 21],
+        [19, 1, 30, 3, 14, 16, 25],
+        [26, 12, 15, 24, 20, 10, 13, 18, 28, 17, 7]
+    ],
+    "cost": 9825.0,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "kayros 1.1.2 TD-ILS (seed=7777, time_limit=240.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-20T06:44:41",
+        "route_durations": [857.0, 2097.0, 1552.0, 2234.0, 3085.0],
+        "route_departure_times": [0.0, 1842.0, 0.0, 55.0, 720.0],
+        "validated_cost": 9825.0,
+        "validated_num_routes": 5
+    },
+    "objective_function": "Duration"
+}

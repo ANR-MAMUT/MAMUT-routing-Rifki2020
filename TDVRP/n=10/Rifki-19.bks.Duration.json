@@ -1,0 +1,33 @@
+{
+    "instance_name": "Rifki-19",
+    "routes": [
+        [4, 2, 9, 3],
+        [1],
+        [8, 10, 7, 6, 5]
+    ],
+    "cost": 3703.0,
+    "metadata": {
+        "source": "kayros 0.0.1.dev0 TD-ACO (seed=42, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [1274.0, 331.0, 2098.0],
+        "route_departure_times": [1436.0, 1911.0, 720.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 3703.0,
+        "validated_num_routes": 3,
+        "date": "2026-07-04T21:37:00",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 3703.0,
+            "dual_bound": 3703.0,
+            "wall_time_s": 8.94,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

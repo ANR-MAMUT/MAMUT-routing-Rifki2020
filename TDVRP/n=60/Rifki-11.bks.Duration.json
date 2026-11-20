@@ -1,0 +1,32 @@
+{
+    "instance_name": "Rifki-11",
+    "routes": [
+        [2, 29],
+        [5, 23, 7, 4, 28, 51, 44, 26, 57],
+        [10, 8, 24, 50, 36, 9],
+        [15, 25, 60, 11, 45, 39, 6, 32],
+        [16, 54, 20, 58, 33, 47, 18],
+        [17, 53, 59, 27],
+        [34, 38, 49, 14],
+        [37, 3, 13, 35, 43, 1, 48, 22, 56],
+        [42, 40, 46, 55, 19, 52, 21, 41, 31, 30, 12]
+    ],
+    "cost": 17002.0,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "kayros 0.4.0.dev0 TD-ACO+ILS (seed=123, time_limit=300.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T03:04:25",
+        "route_durations": [560.0, 2546.0, 1828.0, 2501.0, 1563.0, 1295.0, 1503.0, 2375.0, 2831.0],
+        "route_departure_times": [1168.0, 893.0, 858.0, 1241.0, 25475.0, 4424.0, 5020.0, 1793.0, 24134.0],
+        "validated_cost": 17002.0,
+        "validated_num_routes": 9,
+        "repriced": {
+            "previous_cost": 17001.99999999998,
+            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
+            "contract": "td-fold/2",
+            "date": "2026-09-24"
+        }
+    },
+    "objective_function": "Duration"
+}
