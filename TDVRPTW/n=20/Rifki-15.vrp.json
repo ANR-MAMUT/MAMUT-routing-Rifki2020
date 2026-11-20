@@ -57,7 +57,7 @@
     "horizon": [0.0, 43200.0],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Rifki-15.atf.json.gz",
+        "atf_path": "sidecars/n=20/Rifki-15.atf.json.gz",
         "atf_sha256": "99263b3ef1f1113bbb8e7e8e927f1d159ee0b847a82b0c891273cc0a023d423e"
     },
     "metadata": {
