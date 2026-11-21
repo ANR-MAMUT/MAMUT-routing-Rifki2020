@@ -1,6 +1,11 @@
 # Changelog: Rifki2020 benchmark family
 
-All notable changes to the Rifki2020 family are recorded here. The first entry records the creation of this repository. The sections after it hold the changelogs of the 2 former repositories. They keep every entry, fact, date, count and commit reference, with the wording edited for style and the headings moved 2 levels down.
+All notable changes to the Rifki2020 family are recorded here, the most recent first. The entry "2026-11: family repository" records the creation of this repository. The sections after it hold the changelogs of the 2 former repositories. They keep every entry, fact, date, count and commit reference, with the wording edited for style and the headings moved 2 levels down.
+
+## 2026-11-21: contributors of the Rifki-10 verification record
+
+- The verification record `contributions/2026-11-04-issue-2.json` of the Rifki-10 (n=60) Duration contribution now names the 3 members of the contributing team, at the contributors' request. Its `contributor` field ("Farah Abdallah") becomes `contributors` ("Farah Abdallah, Leen Qawas, Bana Mohammad"), as in the record of the Rifki-11 contribution. No other field of the record changed, and its hashes, routes, costs, dates and source issue still describe the submission of 2026-11-04.
+- The `metadata.authors` field of the Rifki-10 BKS has listed the 3 names since 2026-11-13. No instance and no best-known solution changed.
 
 ## 2026-11: family repository
 

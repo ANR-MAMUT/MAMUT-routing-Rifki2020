@@ -274,7 +274,7 @@
     "name": "mamut-routing-lib",
     "version": "0.12.0"
   },
-  "contributor": "Farah Abdallah",
+  "contributors": "Farah Abdallah, Leen Qawas, Bana Mohammad",
   "date": "2026-11-04T03:52:05.877833+00:00",
   "global_optimality_claim": false,
   "incumbent_sha256": "140002baa9ef809add8a9dab0e9ad6bcbce3308db0f760e15cfe9c85bb8caf2d",
