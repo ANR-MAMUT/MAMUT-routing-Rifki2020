@@ -15,17 +15,124 @@
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 1.6.0 TD-ILS (seed=101, time_limit=3600s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
+        "validated_by": "mamut-routing-lib",
         "date": "2026-08-09T18:38:09",
         "validated_cost": 18321.0,
         "validated_num_routes": 9,
         "route_durations": [1530.0, 2764.0, 2435.0, 1510.0, 2462.0, 2292.0, 1915.0, 2378.0, 1035.0],
         "route_departure_times": [36102.0, 23586.0, 7213.0, 29566.0, 12227.0, 24996.0, 23760.0, 8790.0, 12511.0],
-        "repriced": {
-            "previous_cost": 18320.999999999985,
-            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
-            "contract": "td-fold/2",
-            "date": "2026-09-24"
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 9,
+            "routes_sha256": "2590e8f9ed61d20e65c5771f849e1cf6ead5bcb4f3448c2b5629a7af23d2ea60",
+            "authoritative_cost": {
+                "numerator": "18321",
+                "denominator": "1"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "1530",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "36102",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2764",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "23586",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2435",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "7213",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1510",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "29566",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2462",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "12227",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2292",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "24996",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1915",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "23760",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2378",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "8790",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1035",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "12511",
+                        "denominator": "1"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "b9946fe607d867e1fc9ee29096a5ba34bf8a9ef4b64a3efb4af80cd5732f5fe8"
         }
     },
     "objective_function": "Duration"

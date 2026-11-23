@@ -1,0 +1,37 @@
+{
+    "instance_name": "Rifki-27",
+    "routes": [
+        [13, 40, 5, 3, 20, 37, 33, 34, 39],
+        [15, 23, 22, 10, 11],
+        [17, 35, 9, 19, 25],
+        [26, 18, 2, 16, 21, 28, 29, 8],
+        [30, 24, 1],
+        [31, 38, 4, 32],
+        [36, 27, 12, 14, 7, 6]
+    ],
+    "cost": 15651.99999999999,
+    "metadata": {
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [3376.9999999999964, 2066.0, 2278.0, 2739.0, 1172.0, 1344.9999999999964, 2674.999999999998],
+        "route_departure_times": [29235.0, 16720.0, 20037.0, 7205.0, 35039.0, 24752.0, 12404.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 15651.99999999999,
+        "validated_num_routes": 7,
+        "date": "2026-07-07T10:30:29",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 15651.99999999999,
+            "dual_bound": 15651.999999999947,
+            "wall_time_s": 647.17,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

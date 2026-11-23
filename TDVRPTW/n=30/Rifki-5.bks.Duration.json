@@ -1,27 +1,94 @@
 {
     "instance_name": "Rifki-5",
     "routes": [
-        [26, 12, 15, 6, 17, 2, 5, 11, 22],
-        [27, 16, 21, 14, 25],
-        [19, 23, 29, 24, 20, 10, 28, 7],
         [4, 9],
-        [8, 1, 13, 18, 30, 3]
+        [8, 1, 13, 18, 30, 3],
+        [19, 23, 29, 24, 20, 10, 28, 7],
+        [26, 12, 15, 6, 17, 2, 5, 11, 22],
+        [27, 16, 21, 14, 25]
     ],
     "cost": 10701.0,
     "metadata": {
         "source": "kayros 0.2.0.dev0 TD-ACO (seed=1618, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [2733.0, 1870.0, 2885.0, 804.0, 2409.0],
-        "route_departure_times": [24093.0, 8596.0, 24902.0, 12517.0, 17430.0],
+        "validated_by": "mamut-routing-lib",
+        "route_durations": [804.0, 2409.0, 2885.0, 2733.0, 1870.0],
+        "route_departure_times": [12517.0, 17430.0, 24902.0, 24093.0, 8596.0],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 10701.0,
         "validated_num_routes": 5,
         "date": "2026-07-06T05:08:32",
-        "repriced": {
-            "previous_cost": 10700.999999999996,
-            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
-            "contract": "td-fold/2",
-            "date": "2026-09-24"
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 5,
+            "routes_sha256": "4ed61989ace41e0eb07dd43d700415a1ac83cac49199393ffdcafae677b8d5b0",
+            "authoritative_cost": {
+                "numerator": "10701",
+                "denominator": "1"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "804",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "12517",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2409",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "17430",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2885",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "24902",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2733",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "24093",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1870",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "8596",
+                        "denominator": "1"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "5c208d7e0c97b3b580ceeaeb7d81b4d8723cf5b5e0e046d2e0900958d84f2772"
         }
     },
     "objective_function": "Duration"

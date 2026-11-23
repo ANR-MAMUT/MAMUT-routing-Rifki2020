@@ -25,7 +25,121 @@
         "authors": "Farah Abdallah, Leen Qawas, Bana Mohammad",
         "validated_cost": 20131.0,
         "validated_num_routes": 9,
-        "date": "2026-11-04T03:52:07"
+        "date": "2026-11-04T03:52:07",
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 9,
+            "routes_sha256": "d1eba091cd3128649145b4f5a858c12edb545ac1f2824b749da9480746f96dbe",
+            "authoritative_cost": {
+                "numerator": "20131",
+                "denominator": "1"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "1436",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "9485",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "3077",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "12132",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1919",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "30617",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "701",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "7920",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "3176",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "23819",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "3011",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "17275",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2337",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "24314",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2119",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "24589",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2355",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "28080",
+                        "denominator": "1"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "d593d26555f102ee7b21677f33381ab43088853deb907e7797da65b65d915f17"
+        },
+        "validated_by": "mamut-routing-lib"
     },
     "objective_function": "Duration"
 }

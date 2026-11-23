@@ -1,0 +1,38 @@
+{
+    "instance_name": "Rifki-21",
+    "routes": [
+        [1, 19, 45, 13, 41, 37, 16, 8],
+        [3, 23, 2, 21],
+        [10, 18, 24, 30, 42, 47, 9, 33],
+        [15, 6, 4, 22, 39, 43, 40],
+        [27, 29, 20, 32],
+        [36, 7, 12, 35, 34],
+        [46, 14, 38, 25, 31, 44, 49],
+        [50, 5, 11, 26, 28, 48, 17]
+    ],
+    "cost": 16951.000000000004,
+    "metadata": {
+        "source": "kayros lera BPC exact solve (HiGHS backend, TL 600 s) \u2014 best solution found and validated by the reference checker; recorded as a solution, not as an optimality certificate (certification on stepwise arrival-time functions is withheld pending an exact value-jump labeling)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [2139.0, 1457.0, 3018.0, 2044.000000000001, 1105.0, 2040.0, 2480.0000000000036, 2668.0],
+        "route_departure_times": [17366.0, 4352.0, 22756.0, 7628.999999999999, 25517.0, 10848.0, 30558.999999999996, 33562.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 16951.000000000004,
+        "validated_num_routes": 8,
+        "date": "2026-07-10T00:45:09",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 16951.000000000004,
+            "dual_bound": 16951.0,
+            "wall_time_s": 580.36,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

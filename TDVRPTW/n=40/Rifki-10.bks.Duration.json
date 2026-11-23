@@ -13,17 +13,104 @@
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 0.4.0.dev0 TD-ILS (seed=123, time_limit=300.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
+        "validated_by": "mamut-routing-lib",
         "date": "2026-07-08T03:22:54",
         "route_durations": [646.0, 1875.0, 2349.0, 2168.0, 2268.0, 2069.0, 1661.0],
         "route_departure_times": [33624.0, 22766.0, 4836.0, 17143.0, 28701.0, 27015.0, 13680.0],
         "validated_cost": 13036.0,
         "validated_num_routes": 7,
-        "repriced": {
-            "previous_cost": 13035.999999999989,
-            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
-            "contract": "td-fold/2",
-            "date": "2026-09-24"
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 7,
+            "routes_sha256": "544d0f777c5c0d4c3488c4b7eb23ec12ea0eb25dab7254159c5d045f532d258c",
+            "authoritative_cost": {
+                "numerator": "13036",
+                "denominator": "1"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "646",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "33624",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1875",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "22766",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2349",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "4836",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2168",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "17143",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2268",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "28701",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2069",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "27015",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1661",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "13680",
+                        "denominator": "1"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "880a36c90a8ef9dbeb1fb375bd696ff3a507c26be15ba64059dc2c5654fe4c58"
         }
     },
     "objective_function": "Duration"

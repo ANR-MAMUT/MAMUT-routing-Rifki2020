@@ -1,0 +1,38 @@
+{
+    "instance_name": "Rifki-23",
+    "routes": [
+        [4, 26, 15, 34, 13, 5],
+        [10, 36, 27, 35, 23],
+        [11, 25, 30, 16],
+        [12, 29, 20, 14, 3, 8, 37, 18],
+        [21, 39, 2, 28],
+        [31, 9],
+        [38, 22, 32, 1],
+        [40, 17, 33, 6, 24, 7, 19]
+    ],
+    "cost": 16109.0,
+    "metadata": {
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [2033.0, 1790.0, 1684.0000000000018, 2472.0, 1614.0, 870.0, 2816.999999999999, 2829.0],
+        "route_departure_times": [20160.0, 32961.0, 16156.999999999998, 11520.0, 37772.0, 6049.0, 4842.0, 25560.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 16109.0,
+        "validated_num_routes": 8,
+        "date": "2026-07-07T10:30:28",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 16109.0,
+            "dual_bound": 16109.0,
+            "wall_time_s": 9.55,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

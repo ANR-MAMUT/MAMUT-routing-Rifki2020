@@ -1,0 +1,36 @@
+{
+    "instance_name": "Rifki-21",
+    "routes": [
+        [1, 21, 28, 29, 7, 18, 20],
+        [5, 8, 24, 30],
+        [6, 22],
+        [16, 11],
+        [23, 17, 15, 4, 12, 14],
+        [26, 2, 25, 19, 3, 9, 27, 10, 13]
+    ],
+    "cost": 9896.000000000004,
+    "metadata": {
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [2370.0, 882.0, 327.00000000000364, 838.0, 2264.0, 3215.0],
+        "route_departure_times": [18674.0, 14232.0, 25868.0, 32400.0, 6030.0, 28661.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 9896.000000000004,
+        "validated_num_routes": 6,
+        "date": "2026-07-07T10:30:28",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 9896.000000000004,
+            "dual_bound": 9896.000000000004,
+            "wall_time_s": 12.29,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}
