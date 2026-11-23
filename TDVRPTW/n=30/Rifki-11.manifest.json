@@ -1,0 +1,37 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Rifki2020",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel",
+    "service-start-windows"
+  ],
+  "instance": {
+    "path": "TDVRPTW/n=30/Rifki-11.vrp.json",
+    "sha256": "95059a56adee6813528fb5b942ddfe45882ffdeee439434c038df8c80d9e8aca"
+  },
+  "instance_name": "Rifki-11",
+  "materialization": {
+    "atf_stream_sha256": "d1b7dae6b2064a08d310c02af9dfbc8220c6b505ff504ce1bd23a21230706aca",
+    "canonical_atf_sha256": "4fcca8e9b1929a05a7e022f848016e4d5a47023ef3b81076346aeabbda9576b8",
+    "interpretation": "binary64",
+    "kind": "stored-atf"
+  },
+  "objective": "Duration",
+  "problem": "TDVRPTW",
+  "sidecars": [
+    {
+      "path": "sidecars/n=30/Rifki-11.atf.json.gz",
+      "scope": "decompressed",
+      "sha256": "4fcca8e9b1929a05a7e022f848016e4d5a47023ef3b81076346aeabbda9576b8"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second",
+    "time": "second"
+  }
+}
