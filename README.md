@@ -22,7 +22,7 @@ Each instance has 3 artifacts:
 
 - `Rifki-<id>.vrp.json`: instance data in the MAMUT shape, with depot index 0 (no duplicated end depot), mandatory display `coordinates`, `horizon` `[0, 43200]`, and a `td` block referencing the ATF sidecar with its storage-independent sha256.
 - `Rifki-<id>.atf.json.gz`: the canonical ground truth, one arrival-time NDCPWLF per arc of the complete graph. All sidecars are gzipped in this repository, and the sha256 covers the uncompressed canonical bytes.
-- `Rifki-<id>.bks.Duration.json`: best known solution under the `Duration` objective. Costs are always the authoritative output of the canonical checker (`mamut_routing_lib.td.check_td_solution`).
+- `Rifki-<id>.bks.Duration.json`: best known solution under the `Duration` objective. Edition `r1` uses `td-binary64-exact-v1`. The checker evaluates the materialized binary64 arc data with exact rational arithmetic and records each route's minimum duration and earliest departure attaining it. The certified solution cost is the fraction in `metadata.standard.authoritative_cost`. The top-level `cost` is its binary64 display.
 
 ## FIFO restoration (the defining preprocessing of this family)
 
