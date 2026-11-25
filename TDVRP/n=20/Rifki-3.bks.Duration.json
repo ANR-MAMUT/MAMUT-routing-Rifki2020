@@ -75,9 +75,9 @@
                     }
                 }
             ],
-            "specification": "mamut-routing/0.1-review",
+            "specification": "mamut-routing/0.1",
             "benchmark_revision": "r1",
-            "manifest_sha256": "c65da402f76b1f3c5af6f87698c441709621958603985dc2a03416c62b3e9847"
+            "manifest_sha256": "830662231474bde65a491a2c2607cc5fb8b5e469a96ecfc365235138a4b9dcd3"
         }
     },
     "objective_function": "Duration"

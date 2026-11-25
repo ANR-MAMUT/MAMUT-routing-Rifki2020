@@ -29,7 +29,7 @@
       "sha256": "b1c843d4acc9bc78a2a962544bac70c8c4661c6eaba1049e606b12d6ec2b3d80"
     }
   ],
-  "specification": "mamut-routing/0.1-review",
+  "specification": "mamut-routing/0.1",
   "units": {
     "cost": "second",
     "time": "second"
