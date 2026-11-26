@@ -1,71 +1,120 @@
 {
     "instance_name": "Rifki-22",
     "routes": [
-        [11, 44, 8, 3, 36, 18, 2, 51],
-        [13, 31, 43, 53, 7, 34, 19],
-        [16, 49, 41, 6, 59, 5],
+        [2, 8, 3, 59, 6, 40, 23, 12, 34, 19],
+        [11, 16, 21, 44, 20, 51, 5],
         [30],
-        [33, 28, 39, 47, 27, 14, 58, 9],
-        [37, 22, 15, 23, 26, 10, 25, 40, 12, 21, 20],
+        [33, 28, 25, 49, 36, 18],
+        [37, 22, 15, 26, 10, 47, 27, 14, 58, 9],
+        [41, 53, 7, 43, 13, 31, 39],
         [55, 48, 38, 1, 29, 17],
         [56, 50, 52, 46, 45, 54, 60, 4],
         [57, 24, 32, 35, 42]
     ],
-    "cost": 19523.0,
+    "cost": 19483.0,
     "metadata": {
+        "solver": "Kayros",
+        "solver_revision": "dba56886167c854d2ae36b627128d6d419f811f4",
+        "solver_revision_type": "development",
+        "solver_version": "2.0.0.dev0",
+        "source": "Kayros 2.0.0.dev0, development revision dba56886167c854d2ae36b627128d6d419f811f4.",
+        "campaign": "s140-m4-matched-heuristic",
+        "seed": 1013,
+        "time_limit": 3600,
+        "warm_start": false,
+        "objective_function": "Duration",
+        "date": "2026-11-26T11:54:47.412992+00:00",
+        "record_replay": {
+            "library_revision": "bb20f1b2a9419e53ca6886b40e36d50711289579",
+            "wheel": "mamut_routing_lib-0.13.0.dev0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "wheel_sha256": "8407cb2635263a1e3d817d3818eac99e9ab3b8094dd97b7867fa739b892832b0",
+            "family_revision": "b370a133197811efa61306bf9926e438deeb097a",
+            "independent_fraction_replay": {
+                "evaluation": {
+                    "checker": "mamut-routing-lib",
+                    "backend": "python-fraction-partition",
+                    "implementation_sha256": "c42537f32b6dfa5475bb82a1f54e5fe7c00b6496c9cff131f53a4283b2facac9",
+                    "runtime": "CPython 3.12.12",
+                    "verification_status": "incumbent-verified"
+                },
+                "incumbent": {
+                    "num_route_witnesses": 9,
+                    "routes_sha256": "518a0146a53d61e85d9381788a135bc82e90fa667688c5544b78c0e346091f9e",
+                    "cost_and_witnesses_sha256": "95dab2f753aa89b88eca338be8ba1da7a34cea74a047c51b1d741893ac5b604f"
+                },
+                "candidate": {
+                    "num_route_witnesses": 9,
+                    "routes_sha256": "537d6a41ec3c758f0e907b75294886110391ea4c4d85300701e66ce5caca5670",
+                    "cost_and_witnesses_sha256": "2f30d2ce0744ce9d4576504745157d4b7c9ac83dbab05bd1d211c8c9d38662dd"
+                }
+            }
+        },
+        "origin": {
+            "cell": "p04-086-s1013",
+            "arm": "candidate",
+            "index": 35,
+            "available_utc": "2026-11-26T11:54:47.412992+00:00",
+            "launch_utc": "2026-11-26T10:56:32.888228+00:00",
+            "terminal_sha256": "24e6305d510c10607a95e12154d281e1667856debcefc43f58847a0b1b987fc0",
+            "journal_sha256": "9ee3d63b4c5e1a1356bdb01a078294c77ee5f284a89e6584a418f4b1471ad35b",
+            "score_sha256": "e898939eb73f556441872fafba541d48bd153408485caab10d25ee35e82b4fb1",
+            "elapsed_seconds": 3494.0046063769996,
+            "native_status": "time_limit",
+            "outcome": "returned",
+            "cap_seconds": 3600,
+            "solver_budget_seconds": 3599.560487945,
+            "iteration": 38305,
+            "origin": "ils",
+            "endpoints": ["matched_cutoff", "all_outputs"],
+            "job": "7082388",
+            "host": "grvingt-29",
+            "generator_library_revision": "9b0ea97cae328d2c3c6d487e74e343a9a1dd059f",
+            "generator_wheel_sha256": {
+                "mamut_routing_lib-0.13.0.dev0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "a17d5c8145730df980440882cab4bcd5b58fc5a47bdd0c0766ecf9aa045be02e",
+                "kayros-2.0.0.dev0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "6613a7b2a6e561b3d2a35f4917041d747f5daa28fd356c5303ebe9111000b61d"
+            },
+            "campaign_umbrella": "710dbb533f66f1ecc6542dba27fbd0fd28e8ce2e",
+            "manifest_sha256": "d2ba0dfa5f2a464fba7062b0d3a89712506e002d57a95909c79b057255cab006",
+            "campaign_bks_sha256": "c50563c7d6bdb06cbbfc988986e10d0894ac29cfd127e313cade876f7ac84bab"
+        },
         "authors": "Florian Rascoussier (0nyr)",
-        "source": "kayros 1.6.0 TD-ILS (seed=17, time_limit=3600s)",
-        "validated_by": "mamut-routing-lib",
-        "date": "2026-08-09T18:38:08",
-        "validated_cost": 19523.0,
+        "validated_cost": 19483.0,
         "validated_num_routes": 9,
-        "route_durations": [2922.0, 2444.0, 2283.0, 403.0, 2410.0, 3218.0, 2059.0, 2516.0, 1268.0],
-        "route_departure_times": [8224.0, 23598.0, 19393.0, 1440.0, 12233.0, 30308.0, 24330.0, 17370.0, 8354.0],
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",
             "num_routes": 9,
-            "routes_sha256": "518a0146a53d61e85d9381788a135bc82e90fa667688c5544b78c0e346091f9e",
+            "routes_sha256": "537d6a41ec3c758f0e907b75294886110391ea4c4d85300701e66ce5caca5670",
             "authoritative_cost": {
-                "numerator": "19523",
+                "numerator": "19483",
                 "denominator": "1"
             },
             "display_overflow": false,
             "evaluation": {
                 "checker": "mamut-routing-lib",
                 "backend": "cpp-gmp-compose",
-                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "implementation_sha256": "ee6b97e57926cb2c8149e607b1df0e493410b78b06f25770c305db8b52e37c9f",
                 "runtime": "CPython 3.12.12",
                 "verification_status": "incumbent-verified"
             },
             "route_evaluations": [
                 {
                     "duration": {
-                        "numerator": "2922",
+                        "numerator": "3085",
                         "denominator": "1"
                     },
                     "departure_time": {
-                        "numerator": "8224",
+                        "numerator": "20256",
                         "denominator": "1"
                     }
                 },
                 {
                     "duration": {
-                        "numerator": "2444",
+                        "numerator": "2258",
                         "denominator": "1"
                     },
                     "departure_time": {
-                        "numerator": "23598",
-                        "denominator": "1"
-                    }
-                },
-                {
-                    "duration": {
-                        "numerator": "2283",
-                        "denominator": "1"
-                    },
-                    "departure_time": {
-                        "numerator": "19393",
+                        "numerator": "30917",
                         "denominator": "1"
                     }
                 },
@@ -81,21 +130,31 @@
                 },
                 {
                     "duration": {
-                        "numerator": "2410",
+                        "numerator": "2398",
                         "denominator": "1"
                     },
                     "departure_time": {
-                        "numerator": "12233",
+                        "numerator": "8640",
                         "denominator": "1"
                     }
                 },
                 {
                     "duration": {
-                        "numerator": "3218",
+                        "numerator": "2813",
                         "denominator": "1"
                     },
                     "departure_time": {
-                        "numerator": "30308",
+                        "numerator": "30629",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "2683",
+                        "denominator": "1"
+                    },
+                    "departure_time": {
+                        "numerator": "24202",
                         "denominator": "1"
                     }
                 },

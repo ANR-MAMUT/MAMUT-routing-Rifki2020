@@ -5,36 +5,95 @@
         [3, 11, 29, 8, 20, 21, 36],
         [15, 37, 22, 46, 24],
         [25, 50, 54, 53, 43, 16, 10, 31, 5],
-        [28, 6, 30, 60, 12, 19, 58, 2, 56, 18],
+        [28, 6, 30, 60, 19, 51, 58, 56],
         [32, 4],
         [42, 55, 52, 39, 33, 17, 59, 35, 14, 57, 41, 48, 23],
         [45, 40],
-        [47, 13, 9, 26, 38, 49, 44, 51, 7, 27]
+        [47, 13, 9, 26, 27, 49, 44, 12, 7, 38, 2, 18]
     ],
-    "cost": 17660.0,
+    "cost": 17652.0,
     "metadata": {
+        "solver": "Kayros",
+        "solver_revision": "dba56886167c854d2ae36b627128d6d419f811f4",
+        "solver_revision_type": "development",
+        "solver_version": "2.0.0.dev0",
+        "source": "Kayros 2.0.0.dev0, development revision dba56886167c854d2ae36b627128d6d419f811f4.",
+        "campaign": "s140-m4-matched-heuristic",
+        "seed": 101,
+        "time_limit": 3600,
+        "warm_start": false,
+        "objective_function": "Duration",
+        "date": "2026-11-26T10:29:55.313149+00:00",
+        "record_replay": {
+            "library_revision": "bb20f1b2a9419e53ca6886b40e36d50711289579",
+            "wheel": "mamut_routing_lib-0.13.0.dev0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "wheel_sha256": "8407cb2635263a1e3d817d3818eac99e9ab3b8094dd97b7867fa739b892832b0",
+            "family_revision": "b370a133197811efa61306bf9926e438deeb097a",
+            "independent_fraction_replay": {
+                "evaluation": {
+                    "checker": "mamut-routing-lib",
+                    "backend": "python-fraction-partition",
+                    "implementation_sha256": "c42537f32b6dfa5475bb82a1f54e5fe7c00b6496c9cff131f53a4283b2facac9",
+                    "runtime": "CPython 3.12.12",
+                    "verification_status": "incumbent-verified"
+                },
+                "incumbent": {
+                    "num_route_witnesses": 9,
+                    "routes_sha256": "119928626db92ee13a9224559e42732c518ab55ec2f20fd795cfca6370a7b72b",
+                    "cost_and_witnesses_sha256": "76f6283aa77eea0d53a2cc8bef6c2a73101efec680176d4aebc67fe156307a2e"
+                },
+                "candidate": {
+                    "num_route_witnesses": 9,
+                    "routes_sha256": "079b542d2a2f56fb89208eaedf9b6c08dc09f1be43db10f973efab2f241aa31f",
+                    "cost_and_witnesses_sha256": "f87e634ab5a9cf92727980dbc95bf3b9ec8f48d2e4d31391c4a6836adb632fb4"
+                }
+            }
+        },
+        "origin": {
+            "cell": "p04-083-s101",
+            "arm": "candidate",
+            "index": 24,
+            "available_utc": "2026-11-26T10:29:55.313149+00:00",
+            "launch_utc": "2026-11-26T09:52:53.183740+00:00",
+            "terminal_sha256": "4414658a05d9499357676be7b78c05bce6d1e31bc05e90bfb11892ba27d6a2b1",
+            "journal_sha256": "7edbeebb78f7ae20cde315a6a777170d60ad4abe8e77dd2963c25942ce7bf519",
+            "score_sha256": "241a7b297ae7cd9cf8d9b77c30c01c0865cf2fc128420d98b7ee0ea3de1dcc47",
+            "elapsed_seconds": 2221.8008718290002,
+            "native_status": "time_limit",
+            "outcome": "returned",
+            "cap_seconds": 3600,
+            "solver_budget_seconds": 3599.6676486880006,
+            "iteration": 32952,
+            "origin": "ils",
+            "endpoints": ["matched_cutoff", "all_outputs"],
+            "job": "7082386",
+            "host": "grappe-10",
+            "generator_library_revision": "9b0ea97cae328d2c3c6d487e74e343a9a1dd059f",
+            "generator_wheel_sha256": {
+                "mamut_routing_lib-0.13.0.dev0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "a17d5c8145730df980440882cab4bcd5b58fc5a47bdd0c0766ecf9aa045be02e",
+                "kayros-2.0.0.dev0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "6613a7b2a6e561b3d2a35f4917041d747f5daa28fd356c5303ebe9111000b61d"
+            },
+            "campaign_umbrella": "710dbb533f66f1ecc6542dba27fbd0fd28e8ce2e",
+            "manifest_sha256": "b52dd3f54b027f69836fec04f04c31353a1d31bd6aecac0ca8894ca7da4497d1",
+            "campaign_bks_sha256": "7d30e063886c15cb18319485429a96807af39ff551f3ee6c4e1e7b3a3c157f3a"
+        },
         "authors": "Florian Rascoussier (0nyr)",
-        "source": "kayros 1.6.0 TD-ILS (seed=456, time_limit=3600s)",
-        "validated_by": "mamut-routing-lib",
-        "date": "2026-08-09T18:38:08",
-        "validated_cost": 17660.0,
+        "validated_cost": 17652.0,
         "validated_num_routes": 9,
-        "route_durations": [1004.0, 1772.0, 1985.0, 2615.0, 2897.0, 684.0, 3468.0, 765.0, 2470.0],
-        "route_departure_times": [25258.0, 14980.0, 8708.0, 24202.0, 18962.0, 8366.0, 19705.0, 5512.0, 23760.0],
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",
             "num_routes": 9,
-            "routes_sha256": "119928626db92ee13a9224559e42732c518ab55ec2f20fd795cfca6370a7b72b",
+            "routes_sha256": "079b542d2a2f56fb89208eaedf9b6c08dc09f1be43db10f973efab2f241aa31f",
             "authoritative_cost": {
-                "numerator": "17660",
+                "numerator": "17652",
                 "denominator": "1"
             },
             "display_overflow": false,
             "evaluation": {
                 "checker": "mamut-routing-lib",
                 "backend": "cpp-gmp-compose",
-                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "implementation_sha256": "ee6b97e57926cb2c8149e607b1df0e493410b78b06f25770c305db8b52e37c9f",
                 "runtime": "CPython 3.12.12",
                 "verification_status": "incumbent-verified"
             },
@@ -81,7 +140,7 @@
                 },
                 {
                     "duration": {
-                        "numerator": "2897",
+                        "numerator": "2299",
                         "denominator": "1"
                     },
                     "departure_time": {
@@ -121,11 +180,11 @@
                 },
                 {
                     "duration": {
-                        "numerator": "2470",
+                        "numerator": "3060",
                         "denominator": "1"
                     },
                     "departure_time": {
-                        "numerator": "23760",
+                        "numerator": "23844",
                         "denominator": "1"
                     }
                 }
